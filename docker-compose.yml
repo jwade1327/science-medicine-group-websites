@@ -136,6 +136,7 @@ services:
       AUTH0_TENANT: ${AUTH0_CLIENT_TENANT_DRB}
       BRAZE_API_KEY: ${BRAZE_API_KEY_DRB}
       WPICLE_ENABLED: ${WPICLE_ENABLED_DRB-false}
+      WPICLE_DOMAIN: ${WPICLE_DOMAIN-my.drbicuspid.com}
     hostname: www-smg-drb.dev.parameter1.com
     ports:
       - "9953:80"
